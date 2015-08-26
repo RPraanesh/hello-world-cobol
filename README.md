@@ -7,15 +7,15 @@ apt-get install docker
 ```
 - Download this repository
 ```
-wget https://github.com/helloworld-universe/hello-world-COBOL/archive/master.zip
+wget https://github.com/helloworld-universe/hello-world-cobol/archive/master.zip
 unzip master.zip
-cd hello-world-COBOL-master
+cd hello-world-cobol-master
 ```
 - Build the docker image
 ```
-docker build -t hello-world/COBOL .
+docker build -t hello-world/cobol .
 ```
 - Run the docker container
 ```
-docker run --rm -it hello-world/COBOL
+docker run --rm -it hello-world/cobol
 ```
