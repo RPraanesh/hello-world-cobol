@@ -1,2 +1,2 @@
-#! /bin/sh
+#! /bin/bash
 cobc -x hello-world.cbl
