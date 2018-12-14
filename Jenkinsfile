@@ -8,7 +8,7 @@ git credentialsId: 'GITHUB', url: 'https://github.com/RPraanesh/hello-world-cobo
 }
 }
 }
-   stages {
+   stages 
    stage ('Build') {
      steps {
     echo 'Running Build Automation '
@@ -17,4 +17,3 @@ git credentialsId: 'GITHUB', url: 'https://github.com/RPraanesh/hello-world-cobo
    }
    }
    }
-}
