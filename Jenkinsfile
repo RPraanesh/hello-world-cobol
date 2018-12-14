@@ -14,5 +14,7 @@ git credentialsId: 'GITHUB', url: 'https://github.com/RPraanesh/hello-world-cobo
     echo 'Running Build Automation '
     sh './build.sh --no-daemon'
      }
-    
-      
+   }
+   }
+   }
+}
