@@ -12,7 +12,7 @@ git credentialsId: 'GITHUB', url: 'https://github.com/RPraanesh/hello-world-cobo
    stage ('Build') {
      steps {
     echo 'Running Build Automation '
-    sh './build.sh' --no-daemon'
+    sh './build.sh --no-daemon'
      }
     
       
