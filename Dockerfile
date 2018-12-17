@@ -1,4 +1,4 @@
-FROM rhel7/rhel:latest
+FROM centos:centos6
 WORKDIR /usr/src/app
 COPY . .
 RUN cobc -x hello-world 
